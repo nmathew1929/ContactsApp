@@ -12,7 +12,7 @@ public class AppController {
 	@RequestMapping("/test")
 	public String test() {
 		System.out.println("AppController -> test()");
-		return "test.jsp";
+		return "test";
 	}
 	
 	@RequestMapping("/list_contact")
